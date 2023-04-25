@@ -6,7 +6,6 @@ import sit.tu_varna.bg.car_rental.data.repository.CarRepository;
 import sit.tu_varna.bg.car_rental.model.CarDto;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @Service
 public class CarService {
@@ -19,6 +18,6 @@ public class CarService {
     }
 
     public List<CarDto> getAllCars() {
-        return carRepository.findAll().stream().map(c -> modelMapper.map(c, CarDto.class)).collect(Collectors.toList());
+        return carRepository.findAll().stream().map(c -> modelMapper.map(c, CarDto.class)).toList();
     }
 }

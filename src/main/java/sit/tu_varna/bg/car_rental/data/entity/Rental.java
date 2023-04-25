@@ -5,9 +5,7 @@ import lombok.*;
 import org.hibernate.annotations.Table;
 
 import java.time.LocalDate;
-import java.util.HashSet;
 import java.util.Set;
-
 
 @Entity
 @Table(appliesTo = "rental")

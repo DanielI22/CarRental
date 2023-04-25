@@ -3,15 +3,12 @@ package sit.tu_varna.bg.car_rental.data.entity;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.Table;
-import org.hibernate.annotations.Type;
 import sit.tu_varna.bg.car_rental.util.Helper;
 
 import java.time.LocalDate;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.Set;
-import java.util.stream.Collectors;
 
 @Entity
 @Table(appliesTo = "car")
