@@ -1,0 +1,7 @@
+INSERT INTO `sql7614327`.`extra` (`extra_id`, `name`, `price`) VALUES ('1', 'Child Safety Seat', '20');
+INSERT INTO `sql7614327`.`extra` (`extra_id`, `name`, `price`) VALUES ('2', 'GPS Navigation System', '50');
+INSERT INTO `sql7614327`.`extra` (`extra_id`, `name`, `price`) VALUES ('3', 'Additional Driver', '30');
+
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`, `vin_number`) VALUES ('1', '75', '1HGCT2B88DA000025');
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`, `vin_number`) VALUES ('2', '250', '1B4HS28N51F547639');
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`, `vin_number`) VALUES ('3', '170', '4T1BE30K12U058669');
