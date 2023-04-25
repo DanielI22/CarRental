@@ -38,3 +38,5 @@ create table if not exists rental_extra
 		foreign key (extra_id) references extra (extra_id)
 );
 
+alter table car
+       add column image_url varchar(255)
