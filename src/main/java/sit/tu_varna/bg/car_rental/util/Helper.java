@@ -1,6 +1,7 @@
 package sit.tu_varna.bg.car_rental.util;
 
 import org.springframework.stereotype.Service;
+import sit.tu_varna.bg.car_rental.data.entity.Car;
 import sit.tu_varna.bg.car_rental.data.entity.Rental;
 import sit.tu_varna.bg.car_rental.data.repository.CarRepository;
 import sit.tu_varna.bg.car_rental.data.repository.RentalRepository;
@@ -20,11 +21,9 @@ public class Helper {
         Helper.rentalRepository = rentalRepository;
     }
 
-    public static List<LocalDate> updateCarRentedDates(Long carId) {
-        List<LocalDate> dateResults = new ArrayList<>();
-        List<Rental> carRentals = rentalRepository.findRentalsByCarId(carId);
-        carRentals.forEach(r -> dateResults.addAll(getDatesBetween(r.getStartDate(), r.getEndDate())));
-        return dateResults;
+    public static void updateCarRentedDates(Car car) {
+        List<Rental> carRentals = rentalRepository.findRentalsByCar(car);
+        carRentals.forEach(r -> car.getRentDates().addAll(getDatesBetween(r.getStartDate(), r.getEndDate())));
     }
 
 
