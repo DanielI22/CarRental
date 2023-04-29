@@ -16,4 +16,5 @@ public class CarDto {
     private Double dailyRate;
     private List<LocalDate> rentDates;
     private String imageUrl;
+    private String fuelType;
 }

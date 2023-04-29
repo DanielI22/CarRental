@@ -5,3 +5,23 @@ INSERT INTO `sql7614327`.`extra` (`extra_id`, `name`, `price`) VALUES ('3', 'Add
 INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`, `vin_number`) VALUES ('1', '75', '1HGCT2B88DA000025');
 INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`, `vin_number`) VALUES ('2', '250', '1B4HS28N51F547639');
 INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`, `vin_number`) VALUES ('3', '170', '4T1BE30K12U058669');
+
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`) VALUES ('4', '300');
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`) VALUES ('5', '230');
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`) VALUES ('6', '135');
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`) VALUES ('7', '220');
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`) VALUES ('8', '90');
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`) VALUES ('9', '199');
+INSERT INTO `sql7614327`.`car` (`car_id`, `daily_rate`) VALUES ('10', '130');
+UPDATE `sql7614327`.`car` SET `image_url` = 'https://dub02pap001files.storage.live.com/y4mgYSEwlDfSo8HM-wbWd0ziSHhk9MrGgIN4zDnbXe_NuT8AvvEi4TI9NWpE3bk8-pOY3EvCtviq2Qxv4MGW7O47PYexR8BtzRZLrfKv-vppD1s56MJn2XeqMZ6NfNK9IMcZmoaRAnrm2LtQ0w4qvZg0q7qTPmKADAsHYa3Z1x9yxhzYiU7AXm6qPjd6RqjiJ56?width=287&height=175&cropmode=none' WHERE (`car_id` = '1');
+UPDATE `sql7614327`.`car` SET `image_url` = 'https://dub02pap001files.storage.live.com/y4mZPr44Rk-PjakuRryzu2e5HvOG1csK1RhkNTsOgCmcb8Qiie7WAKhfwXNJ3FMxZaONeQWDJxstyB-wz1N7eyv_QOfzdvUCpbWP0mL5zHyOrO_sRyoVfXVbk1oTi7rfr0IhIz-iHLNe9bl7kwfG7OyrapcDn7OQYMyrZVbSA7pxqqvVbc5NY_Aj65W4gVSUcwr?width=2496&height=1242&cropmode=none' WHERE (`car_id` = '2');
+UPDATE `sql7614327`.`car` SET `image_url` = 'https://dub02pap001files.storage.live.com/y4mWxYLPK29RsXxTHUI4gA33b5cQaQcZB2Q2h8L9reTek8aY4TX3t4DyLZIZSa3NnxH2nBoOFQKrPgv-VMMHnwPaBGO54rozKvvXdryEZE1okXoC42KI3bJVZpgC1Pe_Xw8hUzU_VtYD03yNOtcGpw2a0A2uVbXEJouAKxifgu9S5Tl7Vh1-i8aKBcgt-eVLU0x?width=800&height=533&cropmode=none' WHERE (`car_id` = '3');
+
+UPDATE `sql7614327`.`car` SET `vin_number` = '1ZVBP8CH7A5121324', `image_url` = 'https://dub02pap001files.storage.live.com/y4mTliKSMhwSnOwCCxs96VGfp4XR2WvNSVq2KUe4JqoDpNlIJoJmvaircU2F6JFVAABfjX5CFbDD-pGsHyvJhHOV63ZpE4GtsnkICjvUOlsj56WnWu1x5LX54419MHUHeWnPOEyorQrkXX7a1shaFAq3psQJXgBurHlbH7yRi8r6H5QSDoo1nKxXQNwksXdpzO_?width=4972&height=2653&cropmode=none' WHERE (`car_id` = '4');
+UPDATE `sql7614327`.`car` SET `vin_number` = '1G8AZ52F23Z114214', `image_url` = 'https://dub02pap001files.storage.live.com/y4mtvfwR1dK1YJsrUpzfGl8buulrR3k0f2SC1yP9kQ0J30e8dQpD5xcO_y-TiHtyklklNR0Y6OdY5A_EW1Dpb6FEfpxVsWfNOlooPve8-VvD_XzG3spaL0-9Kwmjt11kHwWMNs8xhV1MosW0PqJYksDhsmM64lZT1GZ8vxyppG8-0ccuSXU6xkJmMclzNBTuLXk?width=1024&height=682&cropmode=none' WHERE (`car_id` = '5');
+UPDATE `sql7614327`.`car` SET `vin_number` = 'WDBRF52H76F783280', `image_url` = 'https://dub02pap001files.storage.live.com/y4m8nN3inOlMkU5MRtdNo45jCVFEiNKBeRQJII5wAIj-9e7iUYwlkUWOngCO6f68M42kPfeJ07N58KL9R-G123CgGZfI26N1ftC0qrQUpaf5FzYZiDrrLM-IPX7UYewbtvSNzyiC2vLNhhz6DQSb2St4h58MOZ7BSmJeTvhcxujIBzq5HBbJRLrT9zdxgakps8A?width=275&height=183&cropmode=none' WHERE (`car_id` = '6');
+UPDATE `sql7614327`.`car` SET `vin_number` = 'JN8AZ2NC5B9300256', `image_url` = 'https://dub02pap001files.storage.live.com/y4mfQg31_-plw2KLNgGulcexjloS-vKZ8xs0K1UaktvKUsBLsAIGMSiwdj3LFEUU1MtsUJgtCbNDpFPDPeNd6_COqO8WmQDBOh8QmgUQqqXLbOtLnTi9nI0x5Gl9dOB0Y0vhKNB8U_rlMRS1p1CF1MMV9jz9W5jk_v_lpqIh-kU6-Jx7blduUCj_K3bh51ob17f?width=720&height=520&cropmode=none' WHERE (`car_id` = '7');
+UPDATE `sql7614327`.`car` SET `vin_number` = '2CNBJ13C3Y6924710', `image_url` = 'https://dub02pap001files.storage.live.com/y4mBA68b3VT-O1Jldkqmej9MyIt-L-8tAlvRRZ1MCo7knUj8dpy-8nzNWzo59F4RpwUnuCiIqY2H1EjFWPGk4NS7FOXfazbHeWPQPk3Ad0JhIg4Fq24RWS7_KIcaYZov5EuXQdeu1BTnfB8xVYNbD0uWi23ujhZ98Tt3OrA44ABKDEdxJ48p2m4Qz2XR9I_FrGN?width=1200&height=687&cropmode=none' WHERE (`car_id` = '8');
+UPDATE `sql7614327`.`car` SET `vin_number` = '1A8HW58268F133559', `image_url` = 'https://dub02pap001files.storage.live.com/y4mlAHpva88mybLL-Mt-juLRbJjVzBWOYMpHXlTIIkMxArAfACnvdJD-K9FWey6u_-nqF2IJtNhke1dfNdEPgP26fcKPGHlgdu7pAeRg4GA3CNUz5FDUlsDZ3JQ4p7wMTqi3yQO8UOmmtCo0_7GIWe8ZrzZopwDHp4NcZpR_8gVoWSE306GnAvR5vw5j7ze-IKr?width=720&height=520&cropmode=none' WHERE (`car_id` = '9');
+UPDATE `sql7614327`.`car` SET `vin_number` = 'JTMWF4DV8C5047998', `image_url` = 'https://dub02pap001files.storage.live.com/y4mcb4ac-qwRB2gygB0jGywlM9WyHGEqLOo7dHznhH2qlKvJLL2hYjcwaejYtQPvKMpTmSoZNRc75H1z5ICatFDtitZUMDgvyoEOCYjclnRgac6-wkjihmCw-92IuZ2WF7zD-uv85x6QOM99Pc6ElRiXAeRSPbamDBqiwgQ0hkLeGYlWPqx009cl_vJBcxtxDby?width=1280&height=782&cropmode=none' WHERE (`car_id` = '10');
+

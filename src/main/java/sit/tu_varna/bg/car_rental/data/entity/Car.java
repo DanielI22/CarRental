@@ -24,6 +24,8 @@ public class Car {
     private Long carId;
     private String vinNumber;
     private Double dailyRate;
+    @Enumerated(EnumType.STRING)
+    private FuelType fuelType;
     @Column(length = 9000)
     private String imageUrl;
 
