@@ -5,7 +5,6 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import java.time.LocalDate;
-import java.util.Set;
 
 @Setter
 @Getter
@@ -16,5 +15,4 @@ public class RentalDto {
     private String customerEmail;
     private LocalDate startDate;
     private LocalDate endDate;
-    private Set<ExtraDto> extras;
 }

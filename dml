@@ -25,3 +25,11 @@ UPDATE `sql7614327`.`car` SET `vin_number` = '2CNBJ13C3Y6924710', `image_url` = 
 UPDATE `sql7614327`.`car` SET `vin_number` = '1A8HW58268F133559', `image_url` = 'https://dub02pap001files.storage.live.com/y4mlAHpva88mybLL-Mt-juLRbJjVzBWOYMpHXlTIIkMxArAfACnvdJD-K9FWey6u_-nqF2IJtNhke1dfNdEPgP26fcKPGHlgdu7pAeRg4GA3CNUz5FDUlsDZ3JQ4p7wMTqi3yQO8UOmmtCo0_7GIWe8ZrzZopwDHp4NcZpR_8gVoWSE306GnAvR5vw5j7ze-IKr?width=720&height=520&cropmode=none' WHERE (`car_id` = '9');
 UPDATE `sql7614327`.`car` SET `vin_number` = 'JTMWF4DV8C5047998', `image_url` = 'https://dub02pap001files.storage.live.com/y4mcb4ac-qwRB2gygB0jGywlM9WyHGEqLOo7dHznhH2qlKvJLL2hYjcwaejYtQPvKMpTmSoZNRc75H1z5ICatFDtitZUMDgvyoEOCYjclnRgac6-wkjihmCw-92IuZ2WF7zD-uv85x6QOM99Pc6ElRiXAeRSPbamDBqiwgQ0hkLeGYlWPqx009cl_vJBcxtxDby?width=1280&height=782&cropmode=none' WHERE (`car_id` = '10');
 
+
+UPDATE `sql7614327`.`car` SET `vin_number` = '4T1BF1FK4CU609641' WHERE (`car_id` = '8');
+UPDATE `sql7614327`.`car` SET `vin_number` = '1C4BJWKGXDL508578' WHERE (`car_id` = '3');
+UPDATE `sql7614327`.`car` SET `vin_number` = 'ZAMGJ45A390047326' WHERE (`car_id` = '1');
+
+DROP TABLE rental_extra
+DROP TABLE extra
+

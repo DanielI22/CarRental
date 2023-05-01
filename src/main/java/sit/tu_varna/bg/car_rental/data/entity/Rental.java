@@ -5,7 +5,6 @@ import lombok.*;
 import org.hibernate.annotations.Table;
 
 import java.time.LocalDate;
-import java.util.Set;
 
 @Entity
 @Table(appliesTo = "rental")
@@ -29,12 +28,4 @@ public class Rental {
     @ManyToOne
     @JoinColumn(name = "carId", insertable = false, updatable = false)
     private Car car;
-
-    @ManyToMany(cascade = { CascadeType.ALL })
-    @JoinTable(
-            name = "rental_extra",
-            joinColumns = { @JoinColumn(name = "rentalId") },
-            inverseJoinColumns = { @JoinColumn(name = "extraId") }
-    )
-    Set<Extra> extras;
 }

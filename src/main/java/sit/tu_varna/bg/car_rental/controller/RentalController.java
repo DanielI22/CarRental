@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 import sit.tu_varna.bg.car_rental.model.RentalDto;
-import sit.tu_varna.bg.car_rental.model.RentalInput;
 import sit.tu_varna.bg.car_rental.service.CarService;
 
 @RestController
@@ -17,7 +16,7 @@ public class RentalController {
     }
 
     @PostMapping("/rent")
-    public ResponseEntity<RentalDto> rentCar(@RequestBody RentalInput rentalInput) {
-            return ResponseEntity.ok(carService.rentACar(rentalInput));
+    public ResponseEntity<RentalDto> rentCar(@RequestBody RentalDto rentalDto) {
+            return ResponseEntity.ok(carService.rentACar(rentalDto));
     }
 }
