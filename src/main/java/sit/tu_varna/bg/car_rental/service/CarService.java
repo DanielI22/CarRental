@@ -30,9 +30,9 @@ public class CarService {
     }
 
     public RentalDto rentACar(RentalDto rentalDto) {
-        Car car = carRepository.findById(rentalDto.getCarId()).orElse(null);
+        Car car = carRepository.findCarByVinNumber(rentalDto.getCarVin()).orElse(null);
         Rental rental = new Rental();
-        rental.setCar(car);
+        rental.setCarId(car.getCarId());
         rental.setCustomerEmail(rentalDto.getCustomerEmail());
         rental.setStartDate(rentalDto.getStartDate());
         rental.setEndDate(rentalDto.getEndDate());

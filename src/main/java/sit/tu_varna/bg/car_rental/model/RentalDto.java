@@ -10,7 +10,7 @@ import java.time.LocalDate;
 @Getter
 @NoArgsConstructor
 public class RentalDto {
-    private Long carId;
+    private String carVin;
     private Double price;
     private String customerEmail;
     private LocalDate startDate;
